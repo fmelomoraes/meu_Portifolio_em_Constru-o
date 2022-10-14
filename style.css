@@ -56,3 +56,82 @@ body {
     width: 15%;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    color: rgb(255, 255, 255);
+
+    font-family: 'Barlow', sans-serif;
+}
+
+.logo {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    /*background-image: url(./img/backgraund_black.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;*/
+
+    /* outra forma de aplicar */
+    background: url(./img/backgraund_black.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+header ul {
+    display: flex;
+    
+}
+
+header ul li {
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .nome h1 {
+    font-size: 50px;
+}
+
+.container .nome h2 {
+    font-size: 15px;
+}
+
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.form button {
+    margin:0 auto
+    width: 15%;
+}
